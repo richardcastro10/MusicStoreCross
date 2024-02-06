@@ -1,0 +1,17 @@
+<Application
+    x:Class="MusicStoreCross.App"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MusicStoreCross"
+    RequestedThemeVariant="Dark">
+
+
+    <Application.DataTemplates>
+        <local:ViewLocator />
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <FluentTheme />
+        <StyleInclude Source="avares://MusicStoreCross/Assets/Icons.axaml" />
+    </Application.Styles>
+</Application>
